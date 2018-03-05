@@ -1,0 +1,30 @@
+{
+  "name": "wvbridge-promise",
+  "version": "1.0.0",
+  "description": "transform javascriptwebview to promise",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guirenpei/wvbridge-promise.git"
+  },
+  "keywords": [
+    "javascript",
+    "javascriptwebview",
+    "promise"
+  ],
+  "author": "guirenpei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guirenpei/wvbridge-promise/issues"
+  },
+  "homepage": "https://github.com/guirenpei/wvbridge-promise#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
