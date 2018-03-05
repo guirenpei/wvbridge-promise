@@ -6,7 +6,7 @@ transform javascriptwebviewbridge to promise
 ```
 import bridge from 'wvbridge-promise';
 or
-const bridge = 'wvbridge-promise';
+const bridge = require('wvbridge-promise');
 ```
 ## how to use
 ```
