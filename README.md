@@ -4,9 +4,9 @@ transform javascriptwebviewbridge to promise
 `npm install wvbridge-promise`
 # import or require module
 ```
-import { bridge } from 'wvbridge-promise';
+import bridge from 'wvbridge-promise';
 or
-const { bridge } = 'wvbridge-promise';
+const bridge = 'wvbridge-promise';
 ```
 ## how to use
 ```
