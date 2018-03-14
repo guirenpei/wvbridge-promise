@@ -16,7 +16,7 @@ bridge是一个promise对象/bridge is a Promise Object
  * @param {String} type 事件类型/event type for yourself define
  * @param {Object} data 向app传输的数据/ data which transform to app
  */
-bridge(fn, type, data).then(res => {
+bridge({fn, type, data}).then(res => {
   console.log(res);
 })
 ```
